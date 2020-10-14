@@ -1,0 +1,77 @@
+﻿
+@{ ViewBag.Title = "Index";
+                Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+                TempData["Title"] = "Kullanıcılar"; }
+
+<div class="col-md-6">
+    <!-- general form elements -->
+    <div class="card card-primary">
+        <div class="card-header">
+            <h3 class="card-title">Kullanıcı Ekle</h3>
+        </div>
+        <!-- /.card-header -->
+        <!-- form start -->
+        <form role="form">
+            <div class="card-body">
+                <div class="form-group">
+                    <label>Ad</label>
+                    <input type="text" class="form-control" placeholder="Ad Girin">
+                </div>
+                <div class="form-group">
+                    <label>Soyad</label>
+                    <input type="text" class="form-control" placeholder="Soyad Girin">
+                </div>
+                <div class="form-group">
+                    <label>Kullanıcı Adı</label>
+                    <input type="text" class="form-control" placeholder="Kullanıcı Adı Girin">
+                </div>
+                <div class="form-group">
+                    <label>E-Mail</label>
+                    <input type="email" class="form-control" placeholder="E-mail Girin">
+                </div>
+                <div class="form-group">
+                    <label>Şifre</label>
+                    <input type="password" class="form-control" placeholder="Şifre Girin">
+                </div>
+                <div class="form-group">
+                    <label>Adres</label>
+                    <input type="text" class="form-control" placeholder="Adres Girin">
+                </div>
+                <div class="form-group">
+                    <label>Telefon No</label>
+                    <input type="tel" class="form-control" placeholder="Telefon No Girin">
+                </div>
+                <div class="form-group">
+                    <label>Cinsiyet</label>
+                    <input type="text" class="form-control" placeholder="Cinsiyet Girin">
+                </div>
+                <div class="form-group">
+                    <label>Doğum Tarihi</label>
+                    <input type="datetime" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputFile">Görsel Seçin</label>
+                    <div class="input-group">
+                        <div class="custom-file">
+                            <input type="file" class="custom-file-input">
+                            <label class="custom-file-label" for="exampleInputFile">Görsel Seçin</label>
+                        </div>
+                        <div class="input-group-append">
+                            <span class="input-group-text" id="">Upload</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /.card-body -->
+
+            <div class="card-footer">
+                <button type="submit" class="btn btn-primary">Ekle</button>
+            </div>
+        </form>
+    </div>
+
+
+</div>
+
+
+

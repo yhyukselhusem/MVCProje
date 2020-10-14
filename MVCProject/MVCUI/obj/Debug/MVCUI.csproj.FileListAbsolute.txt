@@ -90,3 +90,6 @@ C:\Users\Monster\Desktop\Project\MVCProject\MVCUI\obj\Debug\MVCUI.csproj.CoreCom
 C:\Users\Monster\Desktop\Project\MVCProject\MVCUI\obj\Debug\MVCUI.csproj.CopyComplete
 C:\Users\Monster\Desktop\Project\MVCProject\MVCUI\obj\Debug\MVCUI.dll
 C:\Users\Monster\Desktop\Project\MVCProject\MVCUI\obj\Debug\MVCUI.pdb
+C:\Users\Monster\Desktop\YGitHub\MVCProject\MVCUI\obj\Debug\MVCUI.csprojAssemblyReference.cache
+C:\Users\Monster\Desktop\YGitHub\MVCProject\MVCUI\obj\Debug\MVCUI.dll
+C:\Users\Monster\Desktop\YGitHub\MVCProject\MVCUI\obj\Debug\MVCUI.pdb

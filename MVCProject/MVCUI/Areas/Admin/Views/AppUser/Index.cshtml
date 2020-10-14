@@ -1,0 +1,51 @@
+﻿
+@{ ViewBag.Title = "Index";
+                Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+                TempData["Title"] = "Kullanıcılar"; }
+
+<div class="col-lg-12">
+    <div class="card">
+        <div class="card-header">
+            @Html.ActionLink("Kullanıcı Ekle", "AddUser", "AppUser", null, new { @class = "btn btn-info float-right" })
+        </div>
+        <!-- /.card-header -->
+        <div class="card-body">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>Ad</th>
+                        <th>Soyad</th>
+                        <th>Kullanıcı Adı</th>
+                        <th>E-mail</th>
+                        <th>Şifre</th>
+                        <th>Adres</th>
+                        <th>Cinsiyet</th>
+                        <th>Doğum Tarihi</th>
+                        <th>Telefon No</th>
+                        <th>Resim</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+
+                        <td>Hüseyin</td>
+                        <td>Güngören</td>
+                        <td>hgungoren</td>
+                        <td>hg</td>
+                        <td>123</td>
+                        <td>İstanbul</td>
+                        <td>Erkek</td>
+                        <td>11.08.1993</td>
+                        <td>545235233</td>
+                        <td>Resim</td>
+                        <td>
+                            <a href="#" class="badge bg-warning">Güncelle</a>
+                            <a href="#" class="badge bg-danger">Sil</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
