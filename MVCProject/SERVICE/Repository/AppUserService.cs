@@ -8,11 +8,8 @@ using System.Threading.Tasks;
 
 namespace SERVICE.Repository
 {
-    public class CategoryService : BaseService<Category>
+    public class AppUserService : BaseService<AppUser>
     {
-        void CategoryRevenue()
-        {
-            //Yüksel hoca burayı dolduracak
-        }
+
     }
 }

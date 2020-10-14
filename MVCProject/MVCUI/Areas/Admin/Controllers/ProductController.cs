@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SERVICE.Repository;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -12,7 +13,7 @@ namespace MVCUI.Areas.Admin.Controllers
         ProductService _productService = new ProductService();
         public ActionResult Index()
         {
-            var revenue = _productService.ProductRevenue();
+            //var revenue = _productService.ProductRevenue();
             return View(_productService.GetAll());
         }
 

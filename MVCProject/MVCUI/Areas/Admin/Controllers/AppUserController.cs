@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using SERVICE.Repository;
 
 namespace MVCUI.Areas.Admin.Controllers
 {
@@ -12,7 +13,7 @@ namespace MVCUI.Areas.Admin.Controllers
         // GET: Admin/AppUser
         public ActionResult Index()
         {
-            var revenue = _appUserService.AppUserRevenue();
+            //var revenue = _appUserService.AppUserRevenue();
             return View(_appUserService.GetAll());
         }
         public ActionResult AddUser()

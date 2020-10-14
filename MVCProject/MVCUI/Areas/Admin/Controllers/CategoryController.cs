@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SERVICE.Repository;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -12,7 +13,7 @@ namespace MVCUI.Areas.Admin.Controllers
         // GET: Admin/Category
         public ActionResult Index()
         {
-            var revenue = _categoryService.CategoryRevenue();
+            //var revenue = _categoryService.CategoryRevenue();
             return View(_categoryService.GetAll());
         }
         public ActionResult AddCategory()
